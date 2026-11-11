@@ -54,13 +54,15 @@ Needs: Claude Code, git, and [`gh`](https://cli.github.com) **2.94 or newer** (f
    claude plugin install ponytail@ponytail
    claude plugin marketplace add pbakaus/impeccable
    claude plugin install impeccable@impeccable
+   claude plugin marketplace add ayghri/i-have-adhd
+   claude plugin install i-have-adhd@i-have-adhd
    ```
 5. Log in to GitHub: `gh auth login`.
 6. Start a new `claude` session. It should open in ADHD mode. Say "new project" and it should ask for a repo.
 
 ## Extras I use (optional)
 
-- **`i-have-adhd` skill:** really useful for getting Claude to stop spewing nonsense and just get to the point. It's a third-party skill (not from Anthropic) synced to my claude.ai account, so it's not included here. Install it yourself, or remove the "Session start" rule from `CLAUDE.md`.
+- **[`i-have-adhd`](https://github.com/ayghri/i-have-adhd):** really useful for getting Claude to stop spewing nonsense and just get to the point. Third-party skill (MIT, not from Anthropic), installed in step 4. Skip it by removing the "Session start" rule from `CLAUDE.md`.
 - **impeccable:** a frontend design plugin. Not needed for the workflow.
 
 ## Credits
