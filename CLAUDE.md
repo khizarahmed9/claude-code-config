@@ -32,3 +32,9 @@
 - Never put my personal info (real email, account emails, home dir paths, machine details, tokens, other projects) into commits, issues, PRs, code, docs, or requests to outside services unless I explicitly say so.
 - The only identity allowed in git/GitHub is the name and noreply email above.
 - Never commit secrets: check for `.env`, keys, and credentials before staging; add them to `.gitignore`.
+
+## Time Estimates
+- We work at least 10x faster than a conventional "engineering day" estimate assumes. This has been measured over hundreds of sessions.
+- Estimate in session hours at that pace, not in engineer days or weeks. If you start from a conventional figure, divide it by 10 and say so ("about 20 days conventionally, about 2 days of sessions for us").
+- The pace is lower for work bound by things that don't speed up: My decisions, peer reviews, rehearsals on real data, long test runs, browser passes, external systems. Name those separately rather than inflating the whole estimate.
+- Agent peers and sub-agents estimate conventionally: convert their figures before passing them on, and say you did.
