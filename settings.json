@@ -1,0 +1,48 @@
+{
+  "model": "opus",
+  "enabledPlugins": {
+    "impeccable@impeccable": true,
+    "ponytail@ponytail": true
+  },
+  "extraKnownMarketplaces": {
+    "impeccable": {
+      "source": {
+        "source": "github",
+        "repo": "pbakaus/impeccable"
+      }
+    },
+    "web-asset-generator-marketplace": {
+      "source": {
+        "source": "github",
+        "repo": "alonw0/web-asset-generator"
+      }
+    },
+    "ponytail": {
+      "source": {
+        "source": "github",
+        "repo": "DietrichGebert/ponytail"
+      }
+    }
+  },
+  "modelSettings": {
+    "qwen/qwen3.8-27b": {
+      "effortLevel": "low"
+    },
+    "bonsai": {
+      "effortLevel": "low"
+    }
+  },
+  "theme": "dark",
+  "pluginConfigs": {
+    "ponytail@ponytail": {
+      "options": {
+        "ledger": true,
+        "sendNames": true
+      }
+    }
+  },
+  "attribution": {
+    "commit": "",
+    "pr": ""
+  }
+}
