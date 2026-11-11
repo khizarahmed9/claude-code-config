@@ -63,7 +63,7 @@ Needs: Claude Code, git, and [`gh`](https://cli.github.com) **2.94 or newer** (f
 ## Extras I use (optional)
 
 - **[`i-have-adhd`](https://github.com/ayghri/i-have-adhd):** really useful for getting Claude to stop spewing nonsense and just get to the point. Third-party skill (MIT, not from Anthropic), installed in step 4. Skip it by removing the "Session start" rule from `CLAUDE.md`.
-- **impeccable:** a frontend design plugin. Not needed for the workflow.
+- **[impeccable](https://github.com/pbakaus/impeccable):** I use it so Claude's web UIs have a more consistent design and look better. Not needed for the workflow.
 
 ## Credits
 
