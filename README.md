@@ -60,9 +60,8 @@ Needs: Claude Code, git, and [`gh`](https://cli.github.com) **2.94 or newer** (f
 
 ## Extras I use (optional)
 
-- **`i-have-adhd` skill:** one of Anthropic's own skills that come with Claude. Without it, Claude skips the ADHD step.
+- **`i-have-adhd` skill:** a third-party skill (not from Anthropic) synced to my claude.ai account. It's not included here. Install it yourself, or remove the "Session start" rule from `CLAUDE.md`.
 - **impeccable:** a frontend design plugin. Not needed for the workflow.
-- **doom:** plays Doom above the prompt while Claude works. `npx claude-code-templates@latest --mod games/doom`
 
 ## Credits
 
